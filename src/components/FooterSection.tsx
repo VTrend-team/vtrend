@@ -64,7 +64,7 @@ const FooterSection = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Subscribe</h3>
             <p className="text-vtrend-light-text mb-4">Join forward-thinking marketers receiving our bi-weekly insights.</p>
-            <div className="flex">
+            <form className="flex" netlify>
               <input
                 type="email"
                 placeholder="Your email"
@@ -73,7 +73,7 @@ const FooterSection = () => {
               <Button className="vtrend-button rounded-l-none">
                 <span>Subscribe</span>
               </Button>
-            </div>
+            </form>
             <p className="text-vtrend-light-text mt-5"><strong>CONTACT</strong>: info@vtrend.co.in</p>
           </div>
 

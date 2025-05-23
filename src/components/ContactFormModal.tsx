@@ -84,7 +84,7 @@ const ContactFormModal = ({ open, onOpenChange }: ContactFormModalProps) => {
                 <FormItem>
                   <FormLabel>Full Name</FormLabel>
                   <FormControl>
-                    <Input placeholder="Enter Your Name" {...field} />
+                    <Input placeholder="Enter Your Name" {...field} name="name"/>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -98,7 +98,7 @@ const ContactFormModal = ({ open, onOpenChange }: ContactFormModalProps) => {
                 <FormItem>
                   <FormLabel>Email</FormLabel>
                   <FormControl>
-                    <Input placeholder="name@company.com" type="email" {...field} />
+                    <Input placeholder="name@company.com" type="email" {...field} name="email"/>
                   </FormControl>
                   <FormMessage />
                 </FormItem>
