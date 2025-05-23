@@ -8,7 +8,7 @@ const FooterSection = () => {
           <div>
             <div className="mb-6">
               <img
-                src="/lovable-uploads/1e8e37f5-a254-4538-83c3-24fd25fc0883.png"
+                src="/lovable-uploads/vtrend.avif"
                 alt="VTrend Logo"
                 className="h-12 w-auto"
               />

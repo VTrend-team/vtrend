@@ -76,7 +76,7 @@ const ContactFormModal = ({ open, onOpenChange }: ContactFormModalProps) => {
         </DialogHeader>
         
         <Form {...form}>
-          <form data-netlify="true" onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 pt-4">
+          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 pt-4" netlify>
             <FormField
               control={form.control}
               name="name"

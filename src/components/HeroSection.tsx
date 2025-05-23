@@ -72,7 +72,7 @@ const HeroSection = () => {
           <div className="w-full lg:w-1/2 flex justify-center">
             <img
               ref={logoRef}
-              src="/lovable-uploads/1e8e37f5-a254-4538-83c3-24fd25fc0883.png"
+              src="/lovable-uploads/vtrend.avif"
               alt="VTrend Logo"
               className="w-64 md:w-96 transition-transform duration-700"
               style={{ transformStyle: 'preserve-3d', animation: 'float 8s ease-in-out infinite' }}
