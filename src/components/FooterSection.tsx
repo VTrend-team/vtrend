@@ -74,7 +74,7 @@ const FooterSection = () => {
                 <span>Subscribe</span>
               </Button>
             </form>
-            <p className="text-vtrend-light-text mt-5"><strong>CONTACT</strong>: info@vtrend.co.in</p>
+            <p className="text-vtrend-light-text mt-5"><strong>CONTACT</strong>: team@vtrend.co.in</p>
           </div>
 
         </div>
